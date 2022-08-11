@@ -18,3 +18,32 @@ body {
   max-width: 320px;
   margin-bottom: 16px;
 }
+
+p {margin: 0;
+  }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+span {
+  font-weight:  700;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.country-flag {
+  margin-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.country-info > ul > li {
+  margin-bottom: 10px;
+}
+
